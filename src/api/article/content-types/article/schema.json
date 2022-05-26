@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "writtenBy": {
+      "type": "string"
+    },
+    "publishedDate": {
+      "type": "datetime"
+    },
+    "readDuration": {
+      "type": "decimal"
+    }
+  }
+}
